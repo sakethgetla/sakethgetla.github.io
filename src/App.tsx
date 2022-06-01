@@ -8,7 +8,7 @@ function App() {
   // const pages = ['Products', 'Pricing', 'Blog'];
   const pages = [
     { title: "Path Finder with Solidjs", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/pathFind.jpg", link: "https://sakethgetla.github.io/PathFinder_Solidjs/" },
-    { title: "Path Finder with React", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/pathFind.jpg", link: "https://sakethgetla.github.io/game_site/" },
+    { title: "Path Finder with React", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/pathFind.jpg", link: "https://sakethgetla.github.io/PathFinder_React/" },
     { title: "Q learning [not finished]", alt: "image of algorithm", body: "Q learing algorithm to eat the correct food", picture: "/static/images/cards/scene.jpg", link: "https://sakethgetla.github.io/game_site/" }
   ]
 
