@@ -10,7 +10,7 @@ import { AppBar, Box, Button, Card, CardContent, CardMedia, CardActionArea, Grid
 import About from "./About"
 import Home from "./Home"
 // import { useNavigate } from "react-router-dom";
-// import {MenuIcon} from '@mui/icons-material/Menu'
+// import {Menu} from '@mui/icons-material';
 
 
 function App() {
@@ -29,26 +29,29 @@ function App() {
     <>
       <Router>
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar enableColorOnDark={ true } position="fixed" color="primary">
+          <AppBar enableColorOnDark={true} position="fixed" color="primary" sx={{ broder: 1 }}>
             <Toolbar>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
-                {/* <MenuIcon /> */}
-              </IconButton>
+              {/* <IconButton */}
+              {/*   size="large" */}
+              {/*   edge="start" */}
+              {/*   color="inherit" */}
+              {/*   aria-label="menu" */}
+              {/*   sx={{ mr: 2 }} */}
+              {/* > */}
+              {/*   <Menu/> */}
+              {/* </IconButton> */}
+
               <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
                 Saketh Getla
               </Typography>
-              <Button component={Link} to={'/'} color="inherit">
+              {/* <Button component={Link} to={'/'} color="inherit"  sx={{padding:1, margin: 1}} variant="outlined"> */}
+              <Button component={Link} to={'/'} color="inherit" >
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                   Projects
                 </Typography>
               </Button>
-              <Button component={Link} to={'/about'} color="inherit">
+              {/* <Button component={Link} to={'/about'} color="inherit" variant="outlined"> */}
+              <Button component={Link} to={'/about'} color="inherit" >
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                   About
                 </Typography>
@@ -62,10 +65,12 @@ function App() {
           </AppBar>
         </Box>
 
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Box sx={{ margin: 1 }}>
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Box>
 
       </Router>
       {/* <div className="App"> */}
