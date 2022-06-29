@@ -13,7 +13,7 @@ export default function App() {
     <Grid container spacing={5} paddingTop={5}>
       {
         pages.map(page => (
-          <Grid key={page.id} item xs={12} sm={6} md={6} lg={2} >
+          <Grid key={page.id} item xs={12} sm={6} md={4} lg={3} xl={2.5} >
             <Card sx={{ padding: 1, margin: 1, width: 1, height: 1 }} >
               {/* <Card > */}
               <CardActionArea
