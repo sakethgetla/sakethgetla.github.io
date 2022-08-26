@@ -7,6 +7,7 @@ export default function App() {
     { id: 2, title: "Path Finder with solid.js", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/PathFinderSolidjs.jpg", link: "https://sakethgetla.github.io/PathFinder_Solidjs/" },
     { id: 3, title: "Path Finder with react.js", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/pathFind.jpg", link: "https://sakethgetla.github.io/PathFinder_React/" },
     { id: 4, title: "Q learning with Tensorflow.js & matter.js [not finished]", alt: "image of algorithm", body: "Q learing algorithm to eat the correct food", picture: "/static/images/cards/scene.jpg", link: "https://sakethgetla.github.io/game_site/" },
+    { id: 5, title: "boid simulation", alt: "image of algorithm", body: "bird flocking simulation, boid simulation", picture: "/static/images/cards/birdFlocking.png", link: "https://sakethgetla.github.io/birdFlocking/" },
   ]
 
   return (
