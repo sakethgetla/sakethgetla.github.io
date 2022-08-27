@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import { AppBar, Box, Button, Card, CardContent, CardMedia, CardActionArea, Grid, Toolbar, Typography, IconButton } from '@mui/material';
+import {Link as ULink} from '@mui/material';
 import About from "./About"
 import Home from "./Home"
 // import { useNavigate } from "react-router-dom";
@@ -45,6 +46,18 @@ function App() {
                 Saketh Getla
               </Typography>
               {/* <Button component={Link} to={'/'} color="inherit"  sx={{padding:1, margin: 1}} variant="outlined"> */}
+              {/* <ULink href="https://github.com/sakethgetla" color='inherit'> */}
+              <ULink component={Button} underline="hover" href="https:github.com/sakethgetla" color='inherit'>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                  github
+                </Typography>
+              </ULink>
+
+              {/* <Button component={Link} to={'/'} color="inherit" > */}
+              {/*   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> */}
+              {/*     github */}
+              {/*   </Typography> */}
+              {/* </Button> */}
               <Button component={Link} to={'/'} color="inherit" >
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                   Projects

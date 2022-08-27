@@ -3,17 +3,17 @@ import { AppBar, Box, Button, Card, CardContent, CardMedia, CardActionArea, Grid
 
 export default function App() {
   const pages = [
-    { id: 1, title: "Q learning with Tensorflow.js & planck.js", alt: "image of algorithm", body: "Q learing algorithm to eat the food", picture: "/static/images/cards/AI_agent.jpg", link: "https://sakethgetla.github.io/QLearningGames/" },
+    { id: 1, title: "game with react.js and matter.js", alt: "image of algorithm", body: "Q learing algorithm to eat the correct food", picture: "/static/images/cards/scene.jpg", link: "https://sakethgetla.github.io/game_site/" },
     { id: 2, title: "Path Finder with solid.js", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/PathFinderSolidjs.jpg", link: "https://sakethgetla.github.io/PathFinder_Solidjs/" },
     { id: 3, title: "Path Finder with react.js", alt: "image of algorithm", body: " Use Astar, Dijkstra and Heurisic algorithms to find a path through the map.", picture: "/static/images/cards/pathFind.jpg", link: "https://sakethgetla.github.io/PathFinder_React/" },
-    { id: 4, title: "Q learning with Tensorflow.js & matter.js [not finished]", alt: "image of algorithm", body: "Q learing algorithm to eat the correct food", picture: "/static/images/cards/scene.jpg", link: "https://sakethgetla.github.io/game_site/" },
+    { id: 4, title: "Q learning with Tensorflow.js & planck.js", alt: "image of algorithm", body: "Q learing algorithm to eat the food", picture: "/static/images/cards/AI_agent.jpg", link: "https://sakethgetla.github.io/QLearningGames/" },
     { id: 5, title: "boid simulation", alt: "image of algorithm", body: "bird flocking simulation, boid simulation", picture: "/static/images/cards/birdFlocking.png", link: "https://sakethgetla.github.io/birdFlocking/" },
   ]
 
   return (
     <Grid container spacing={5} paddingTop={10}>
       {
-        pages.map(page => (
+        pages.reverse().map(page => (
           <Grid key={page.id} item xs={12} sm={6} md={4} lg={3} xl={2.5} >
             <Card sx={{ padding: 1, margin: 1, width: 1, height: 1 }} >
               {/* <Card > */}
