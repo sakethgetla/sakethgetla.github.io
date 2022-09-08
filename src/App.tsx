@@ -66,7 +66,7 @@ function App() {
               {/* <Button component={Link} to={'/about'} color="inherit" variant="outlined"> */}
               <Button component={Link} to={'/about'} color="inherit" >
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                  About
+                  Resume
                 </Typography>
               </Button>
               {/* <Button component={Link} to={'/about'} variant="outlined" color="inherit" >About</Button> */}
