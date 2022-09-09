@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import { AppBar, Box, Button, Card, CardContent, CardMedia, CardActionArea, Grid, Toolbar, Typography, IconButton } from '@mui/material';
-import {Link as ULink} from '@mui/material';
+import { Link as ULink } from '@mui/material';
 import About from "./About"
 import Home from "./Home"
 // import { useNavigate } from "react-router-dom";
@@ -45,9 +45,14 @@ function App() {
               <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
                 Saketh Getla
               </Typography>
-              {/* <Button component={Link} to={'/'} color="inherit"  sx={{padding:1, margin: 1}} variant="outlined"> */}
+              <Button component={Link} to={'/'} color="inherit"  sx={{padding:1, margin: 1}} variant="outlined">
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                  github
+                </Typography>
+              </Button>
               {/* <ULink href="https://github.com/sakethgetla" color='inherit'> */}
-              <ULink component={Button} underline="hover" href="https:github.com/sakethgetla" color='inherit'>
+
+              <ULink component={Button} underline="none" href="https:github.com/sakethgetla" color='inherit'>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                   github
                 </Typography>
@@ -58,6 +63,34 @@ function App() {
               {/*     github */}
               {/*   </Typography> */}
               {/* </Button> */}
+
+
+              <a href="https://github.com/sakethgetla" target='_blank' rel="noreferrer" style={{ "color": "white" }}>
+                <Button color="inherit">
+                  <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    github
+                  </Typography>
+                </Button>
+              </a>
+
+              {/* <Link to={{ pathname: "https://github.com/sakethgetla" }} target="_blank"> */}
+              {/*   <Button color="secondary"> */}
+              {/*     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> */}
+              {/*       github */}
+              {/*     </Typography> */}
+              {/*   </Button> */}
+              {/* </Link> */}
+
+
+              {/* <Button color="inherit" onClick={() => { */}
+              {/*   window.location.replace('https://github.com/sakethgetla'); */}
+              {/*   return null; */}
+              {/* }}> */}
+              {/*   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> */}
+              {/*     github */}
+              {/*   </Typography> */}
+              {/* </Button> */}
+
               <Button component={Link} to={'/'} color="inherit" >
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                   Projects
@@ -66,7 +99,7 @@ function App() {
               {/* <Button component={Link} to={'/about'} color="inherit" variant="outlined"> */}
               <Button component={Link} to={'/about'} color="inherit" >
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                  Resume
+                  About
                 </Typography>
               </Button>
               {/* <Button component={Link} to={'/about'} variant="outlined" color="inherit" >About</Button> */}
