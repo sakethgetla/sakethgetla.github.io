@@ -45,18 +45,20 @@ function App() {
               <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
                 Saketh Getla
               </Typography>
-              <Button component={Link} to={'/'} color="inherit"  sx={{padding:1, margin: 1}} variant="outlined">
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                  github
-                </Typography>
-              </Button>
+
+              {/* <Button component={Link} href="https://github.com/sakethgetla" color="inherit"  sx={{padding:1, margin: 1}} variant="outlined"> */}
+              {/*   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> */}
+              {/*     github */}
+              {/*   </Typography> */}
+              {/* </Button> */}
+
               {/* <ULink href="https://github.com/sakethgetla" color='inherit'> */}
 
-              <ULink component={Button} underline="none" href="https:github.com/sakethgetla" color='inherit'>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                  github
-                </Typography>
-              </ULink>
+              {/* <ULink component={Button} underline="none" href="https:github.com/sakethgetla" color='inherit'> */}
+              {/*   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> */}
+              {/*     github */}
+              {/*   </Typography> */}
+              {/* </ULink> */}
 
               {/* <Button component={Link} to={'/'} color="inherit" > */}
               {/*   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> */}
@@ -65,7 +67,8 @@ function App() {
               {/* </Button> */}
 
 
-              <a href="https://github.com/sakethgetla" target='_blank' rel="noreferrer" style={{ "color": "white" }}>
+              <a href="https://github.com/sakethgetla" target='_blank' rel="noreferrer" style={{textDecorationLine: 'none', "color": "white" }}>
+                {/* <Button color="inherit"> */}
                 <Button color="inherit">
                   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     github
