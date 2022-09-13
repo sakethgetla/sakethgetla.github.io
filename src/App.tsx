@@ -38,7 +38,6 @@ function App() {
               <a href="https://github.com/sakethgetla" target='_blank' rel="noreferrer" style={{textDecorationLine: 'none', "color": "white" }}>
                 {/* <Button color="inherit"> */}
                 <Button color="inherit" startIcon={<OpenInNewIcon/>}>
-
                   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     github
                   </Typography>
