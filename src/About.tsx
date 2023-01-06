@@ -12,7 +12,7 @@ function standardImageList() {
   };
   return (
     // <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
-    <ImageList cols={1} >
+    <ImageList sx={{ maxWidth: 1100 }} cols={1} >
       <ImageListItem key={item.img}>
         <img
           src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
