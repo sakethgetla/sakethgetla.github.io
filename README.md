@@ -1,3 +1,3 @@
 ## TODO
-- [x] fix resume type
+- [x] fix resume typeo
 - [ ] remove url routes, because '/about' gives error since it doesnt have a server
