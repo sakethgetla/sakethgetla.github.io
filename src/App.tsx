@@ -21,12 +21,14 @@ function App() {
 
   useEffect(() => {
     document.title = "Saketh Getla"
+    document.
   }, [])
 
   return (
     <>
       <Router>
         <Box sx={{ flexGrow: 1 }}>
+
           <AppBar enableColorOnDark={true} position="fixed" color="primary" sx={{ broder: 1 }}>
             <Toolbar>
 
